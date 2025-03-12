@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Canteen Management System</title>
+    <title>Order Now - Campus Canteen</title>
     
     <!-- Bootstrap CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
@@ -16,7 +16,7 @@
     <!-- Navigation Bar -->
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
         <div class="container">
-            <a class="navbar-brand" href="#">Campus Canteen</a>
+            <a class="navbar-brand" href="index.html">Campus Canteen</a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
                 <span class="navbar-toggler-icon"></span>
             </button>
@@ -39,57 +39,74 @@
                     </li>
                     
                     <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
-                    
-                    <!-- Signup and Login -->
-                    <li class="nav-item"><a class="nav-link" href="signup.html">Sign Up</a></li>
-                    <li class="nav-item"><a class="nav-link" href="login.html">Login</a></li>
                 </ul>
             </div>
         </div>
     </nav>
 
-    <!-- Hero Section -->
-    <header class="banner text-center text-white" style="background: #ff6600; padding: 100px 20px;">
-        <div class="container">
-            <h1>Fresh & Tasty Meals, Anytime!</h1>
-            <p class="lead">Order your favorite meals with ease.</p>
-            <a href="order.html" class="btn btn-primary btn-lg">Order Now</a>
-        </div>
-    </header>
-    
-
-    <!-- Today's Special Section -->
-    <section class="menu py-5">
+    <!-- Order Now Section -->
+    <section class="order-page py-5">
         <div class="container text-center">
-            <h2 class="mb-4">Today's Special</h2>
-            <div class="row">
+            <h2 class="mb-4">Order Your Favorite Meals</h2>
+            <p class="lead">Choose from a variety of delicious meals and beverages.</p>
+
+            <div class="row mt-4">
+                <!-- Meals -->
                 <div class="col-md-4">
                     <div class="card shadow-sm">
-                        <img src="tikka.webp" class="card-img-top" alt="Spicy Paneer Tikka">
+                        <img src="meals.webp" class="card-img-top" alt="Meals">
                         <div class="card-body">
-                            <h5 class="card-title">Spicy Paneer Tikka</h5>
-                            <p class="card-text">Grilled paneer cubes marinated in spices, served hot.</p>
-                            <a href="order.html" class="btn btn-success">Order</a>
+                            <h5 class="card-title">Meals</h5>
+                            <p class="card-text">Delicious full-course meals available.</p>
+                            <a href="meals.html" class="btn btn-primary">View Menu</a>
                         </div>
                     </div>
                 </div>
+
+                <!-- North Indian -->
                 <div class="col-md-4">
                     <div class="card shadow-sm">
-                        <img src="biryani.webp" class="card-img-top" alt="Chicken Biryani">
+                        <img src="north.webp" class="card-img-top" alt="North Indian">
                         <div class="card-body">
-                            <h5 class="card-title">Chicken Biryani</h5>
-                            <p class="card-text">Fragrant basmati rice cooked with spiced chicken.</p>
-                            <a href="order.html" class="btn btn-success">Order</a>
+                            <h5 class="card-title">North Indian</h5>
+                            <p class="card-text">Authentic North Indian dishes with rich flavors.</p>
+                            <a href="north-indian.html" class="btn btn-primary">View Menu</a>
                         </div>
                     </div>
                 </div>
+
+                <!-- Chinese -->
                 <div class="col-md-4">
                     <div class="card shadow-sm">
-                        <img src="chocolava.webp" class="card-img-top" alt="Chocolate Lava Cake">
+                        <img src="chinese.webp" class="card-img-top" alt="Chinese">
                         <div class="card-body">
-                            <h5 class="card-title">Chocolate Lava Cake</h5>
-                            <p class="card-text">Warm chocolate cake with a molten chocolate center.</p>
-                            <a href="order.html" class="btn btn-success">Order</a>
+                            <h5 class="card-title">Chinese</h5>
+                            <p class="card-text">Mouth-watering Chinese delicacies.</p>
+                            <a href="chinese.html" class="btn btn-primary">View Menu</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Desserts -->
+                <div class="col-md-4 mt-4">
+                    <div class="card shadow-sm">
+                        <img src="dessert.webp" class="card-img-top" alt="Desserts">
+                        <div class="card-body">
+                            <h5 class="card-title">Desserts</h5>
+                            <p class="card-text">Sweet treats to satisfy your cravings.</p>
+                            <a href="desserts.html" class="btn btn-primary">View Menu</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Beverages -->
+                <div class="col-md-4 mt-4">
+                    <div class="card shadow-sm">
+                        <img src="beverage.webp" class="card-img-top" alt="Beverages">
+                        <div class="card-body">
+                            <h5 class="card-title">Beverages</h5>
+                            <p class="card-text">Refreshing drinks to quench your thirst.</p>
+                            <a href="beverages.html" class="btn btn-primary">View Menu</a>
                         </div>
                     </div>
                 </div>
