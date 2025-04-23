@@ -1,0 +1,18 @@
+.container {
+  margin: 30px;
+}
+
+.blur-on-hover:hover {
+  filter: blur(3px);
+  transition: filter 0.3s ease;
+}
+
+.input-focused {
+  background-color: #ffeaa7;
+  outline: none;
+}
+
+input {
+  padding: 8px;
+  font-size: 16px;
+}
